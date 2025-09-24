@@ -9,16 +9,17 @@
 ├── package.json # Project configuration
 └── README.md # Project documentation
 
-## ANDROID- contains all android files for building and running the app on emulators.
-## IOS- contains all IOS specific files for building the app on iOS devices.
-## Eslintrc - ESLint configuration for code linting.
-## Gitignore - files/folder excluded from git version control.
-## Watchmanconfig - watchman configuration file for monitoring file changes.
-## App.json - React Native app configuration file.
-## App.tsx - Main entry component of react native app.
-## environment-setup.md - documentation of environment setup 
-## index.js - entry point of the react native app for the main component.
-## Package.json - lists dependencies , scripts and project metadata.
-## Package-lock.json- Auto-generated file locking package versions.
-## readme.md - general project readme file.
-## Tsconfig.json - TypeScript configuration file.
+# Project Structure
+## Folder Organization
+- `src/components/` - Reusable UI components
+- `src/screens/` - Screen components
+- `src/services/` - API and configuration services
+- `src/utils/` - Utility functions
+- `src/constants/` - App constants
+## Development Scripts
+- `npm run dev:android` - Start development for Android
+- `npm run lint` - Check code quality
+- `npm run format` - Format code
+## Environment Configuration
+- Development: `.env.development`
+- Production: `.env.production`
