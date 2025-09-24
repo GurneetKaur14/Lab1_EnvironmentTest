@@ -1,5 +1,19 @@
+// {
+//   "java.dependency.packagePresentation": "flat",
+//   "java.dependency.syncWithFolderExplorer": true,
+//   "java.compile.nullAnalysis.mode": "automatic"
+// }
+
 {
-    "java.dependency.packagePresentation": "flat",
-    "java.dependency.syncWithFolderExplorer": true,
-    "java.compile.nullAnalysis.mode": "automatic"
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "javascript.preferences.importModuleSpecifier": "relative"
 }
